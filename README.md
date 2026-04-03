@@ -62,6 +62,18 @@ npm run dev
 npm run build
 ```
 
+## Deploy To GitHub Pages
+
+This repository includes a workflow at `.github/workflows/deploy-pages.yml` that builds Vite output from `dist` and publishes it to GitHub Pages.
+
+1. Push `main` branch to GitHub.
+2. In GitHub repository settings, open **Pages**.
+3. Set **Source** to **GitHub Actions**.
+4. Wait for the **Deploy to GitHub Pages** workflow to complete.
+5. Open: `https://0ashutosh1.github.io/zorvyn/`
+
+If you open `https://0ashutosh1.github.io/` directly, you may see a blank/incorrect page because this is a project site served under `/zorvyn/`.
+
 ## Test
 
 ```bash
